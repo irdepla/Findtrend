@@ -1,0 +1,64 @@
+.sponsors{
+    padding: 80px 0;
+    background-color: $secondary-bg;
+
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+    }
+
+    &__intro{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 42.77px;
+
+        span{
+            color: #ADADAD;
+        }
+    }
+
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+
+
+        &-title{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 42.77px;
+        text-align: center;
+        }
+
+        &-card{
+            display: flex;
+            align-items: center;
+            width: 162px;
+            border-radius: 8px;
+            padding: 25px 23px;
+            background-color: #F5F5F5;
+
+            &:nth-child(2){
+                padding: 25px 33px 25px 33px;
+            }
+
+
+            &:nth-child(3){
+                padding: 24px 36px 23px 37px;
+            }
+
+
+
+            &s{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+                gap: 15px;
+            }
+        }
+    }
+}
