@@ -1,6 +1,6 @@
 .container {
-  max-width: 100%;
-  padding: 0 $container-padding;
+  max-width: 96%;
+  // padding: 0 $container-padding;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@
 
 @include desktop {
   .container {
-    max-width: 1200px;
+    max-width: 1280px;
   }
 }
 

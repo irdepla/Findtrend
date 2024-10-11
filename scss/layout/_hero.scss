@@ -1,25 +1,61 @@
 .hero {
-  background: url(../../assets/images/hero-bg-transparent.png), url(../../assets/images/hero-mobile.png);
-  height: calc(100vh - (48px + 30px));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
-
-  &__wrapper {
-    height: inherit;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
+    background-color: $main-bg;
+    color: white;
+    padding-top: 56px;
+    padding-bottom: 82px;
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
   }
 
-  &__title {
-    font-size: $text-h1;
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
-  
-  &__info {
-    margin-top: 28px;
+
+
+  &__title{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40.32px;
+    text-align: center;
   }
+
+
+  &__desc{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #8B8B8B;
+  }
+
+  &__btn{
+    margin-top: 16px;
+  }
+
+
+  &__social-media{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    gap: 14px;
+    .hero__sm-card{
+        width: 293px;
+        background-color: #181818;
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        padding: 21px 34px;
+    }
+  }
+
+
 }
 
