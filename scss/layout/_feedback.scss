@@ -1,0 +1,125 @@
+.feedback{
+    padding: 80px 18px 85px 18px;
+
+
+    &__title{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 42.77px;
+    }
+
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    &__cards{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    &__card{
+        padding: 16px;
+        border-radius: 8px;
+        transition: all ease-in-out 1s;
+
+        &:nth-child(5), &:nth-child(6), &:nth-child(8){
+            display: none;
+        }
+
+        
+
+        &:hover{
+            background-color: $main-color;
+            transition: all ease-in-out 0.7s;
+        }
+    }
+
+    
+
+    &__tweets{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+
+    &__btn{
+        background-color: #000;
+        color: white;
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+@include desktop{
+    .feedback{
+
+
+        &__wrapper{
+            gap: 77px;
+        }
+
+
+
+        &__title{
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 76.03px;
+            text-align: center;
+        }
+
+
+        &__card{
+
+            &:nth-child(5), &:nth-child(6), &:nth-child(8){
+                display: block;
+            }
+
+
+
+            img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        &__tweets{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+
+
+        &__tweets{
+            gap: 40px;
+            img{
+                width: 800px;
+                height: 274px;
+    
+                &:nth-child(2){
+                    height: 804px;
+                }
+            }
+        }
+
+
+
+        &__btn{
+            padding: 16px 32px;
+            font-size: 18px;
+        }
+
+
+    }
+}
