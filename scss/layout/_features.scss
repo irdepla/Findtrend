@@ -47,6 +47,27 @@
 
 @include desktop{
   .features{
-    
+    padding: 140px 0;
+
+    &__wrapper {
+      gap: 60px;
+    }
+
+    &__title{
+      font-size: 72px;
+      font-weight: 700;
+    }
+
+    &__info {
+      p{
+        font-size: 18px;
+      }
+    }
+
+    &__card {
+      padding: 60px 80px;
+      border-radius: 16px;
+    }
+  
   }
 }
