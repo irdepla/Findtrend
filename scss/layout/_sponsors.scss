@@ -62,3 +62,50 @@
         }
     }
 }
+
+
+
+@include desktop{
+    .sponsors{
+        padding: 140px 0;
+
+        &__wrapper{
+            gap: 280px;
+        }
+
+
+        &__intro{
+            padding: 140px;
+            p{
+                font-size: 64px;
+                font-weight: 700;
+                text-align: left;
+                line-height: 76.03px;
+            }
+        }
+
+
+        &__info{
+            gap: 80px;
+
+            &-title{
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 76.03px;
+                text-align: center;
+            }
+
+            &-card{
+                width: 266px;
+
+                &s{
+                    grid-template-columns: repeat(4,1fr);
+                    gap: 32px;
+                }
+            }
+        }
+
+
+
+    }
+}
