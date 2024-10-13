@@ -10,144 +10,210 @@
     <header>
       <nav class="nav">
         <div class="container">
-            <div class="nav__wrapper">
-                <div class="nav--mobile-logo">
-                    <img src="./assets/icons/mobile-logo.svg" alt="findtrend logo">
-                </div>
-                <button class="nav__burger-btn" id="burger-btn">
-                    <img src="./assets/icons/burger-menu icon.svg" alt="" />
-                  </button>
-                  <!-- <div class="nav__modal" id="nav-modal">
-                    <ul class="nav__modal-links">
-                      <li><a href="#">Напрямки</a></li>
-                      <li><a href="#">Напрямки</a></li>
-                      <li><a href="#">Напрямки</a></li>
-                      <li><a href="#">Напрямки</a></li>
-                      <li><a href="#">Напрямки</a></li>
-                    </ul>
-                  </div>
-          
-          <div class="nav__overlay"></div> -->
+          <div class="nav__wrapper">
+            <div class="nav--mobile-logo">
+              <img src="./assets/icons/mobile-logo.svg" alt="findtrend logo" />
+              <img src="./assets/icons/dektop-logo.svg" alt="desktop logo">
             </div>
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a href="#">
+                  <span>
+                    About
+                  </span>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#">
+                  <span>
+                    How it work
+                  </span>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#">
+                  <span>
+                    Pricing
+                  </span>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#">
+                  <span>
+                    Solution
+                  </span>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#">
+                  <span>
+                    Features
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <div class="nav__registration">
+              <a href="#" class="nav__login">
+                Login
+              </a>
+              <button class="nav__register__btn universal__btn">
+                Register
+              </button>
+            </div>
+            <button class="nav__burger-btn" id="burger-btn">
+              <img src="./assets/icons/burger-menu icon.svg" alt="" />
+            </button> 
+            <div class="nav__modal" id="nav-modal">
+              <div class="nav__modal-logo">
+                <img src="./assets/icons/mobile-logo.svg" alt="logo" />
+                <button id="close-btn">
+                  <img
+                    src="./assets/icons/burger-btn-crossbar.svg"
+                    alt="burger-btn-crossbar"
+                  />
+                </button>
+              </div>
+              <ul class="nav__modal-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">How it work</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Solution</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+
+              <button class="nav__modal__btn universal__btn">Register</button>
+            </div>
+
+            <div class="nav__overlay"></div>
+          </div>
         </div>
       </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper">
-                    <div class="hero__info">
-                        <h1 class="hero__title">
-                            Minimize your tabs. <br>
-                            Find the trends!
-                        </h1>
-                        <p class="hero__desc">
-                            Don’t let your computer memories consumes <br> all of those browser tabs. <br>
-                            Findtrend  let you gathers all of your favorite <br> website into one place.
-                        </p>
-                        <button class="hero__btn universal__btn">
-                            Get Started 🔥
-                        </button>
-                    </div>
-                    <div class="hero__social-media">
-                        <div class="hero__sm-card">
-                            <img src="./assets/images/twitter.svg" alt="twitter logo">
-                            <span>Cryptopunk - Search</span>
-                            <img src="./assets/icons/card-crossbar.svg" alt="crossbar">
-                        </div>
-                        <div class="hero__sm-card">
-                            <img src="./assets/images/pinterest.svg" alt="twitter logo">
-                            <span>Cryptopunk - Search</span>
-                            <img src="./assets/icons/card-crossbar.svg" alt="crossbar">
-                        </div>
-                        <div class="hero__sm-card">
-                            <img src="./assets/images/facebook.svg" alt="twitter logo">
-                            <span>Cryptopunk - Search</span>
-                            <img src="./assets/icons/card-crossbar.svg" alt="crossbar">
-                        </div>
-                    </div>
-                </div>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__info">
+              <h1 class="hero__title">
+                Minimize your tabs. <br />
+                Find the trends!
+              </h1>
+              <p class="hero__desc">
+                Don’t let your computer memories consumes <br />
+                all of those browser tabs. <br />
+                Findtrend let you gathers all of your favorite <br />
+                website into one place.
+              </p>
+              <button class="hero__btn universal__btn">Get Started 🔥</button>
             </div>
-        </section>
-        <section class="features">
-            <div class="container">
-                <div class="features__wrapper">
-                        <h2 class="features__title">
-                            Open new tabs is sh*t 
-                        </h2>
-                    <div class="features__card">
-                        <div class="features__main-card">
-                            <img src="./assets/icons/mobile-logo.svg" alt="twitter logo">
-                            <span>Findtrend - Elon Musk</span>
-                            <img src="./assets/icons/card-crossbar.svg" alt="crossbar">
-                        </div>
-                    </div>
-                    <div class="features__info">
-                        <p>
-                            A solution for your browser tabs and don’t make <br>
-                            your device get slower over time. Get ease and <br>
-                            faster to discover a trend with just one tab.
-                        </p>
-                    </div>
-                </div>
+            <div class="hero__social-media">
+              <div class="hero__sm-card">
+                <img src="./assets/images/twitter.svg" alt="twitter logo" />
+                <span>Cryptopunk - Search</span>
+                <img src="./assets/icons/card-crossbar.svg" alt="crossbar" />
+              </div>
+              <div class="hero__sm-card">
+                <img src="./assets/images/pinterest.svg" alt="twitter logo" />
+                <span>Cryptopunk - Search</span>
+                <img src="./assets/icons/card-crossbar.svg" alt="crossbar" />
+              </div>
+              <div class="hero__sm-card">
+                <img src="./assets/images/facebook.svg" alt="twitter logo" />
+                <span>Cryptopunk - Search</span>
+                <img src="./assets/icons/card-crossbar.svg" alt="crossbar" />
+              </div>
             </div>
-        </section>
-        <section class="sponsors">
-            <div class="container">
-                <div class="sponsors__wrapper">
-                    <p class="sponsors__intro">
-                        Findtrend helps you to increase your productivity and reduce your computer's memory load,
-                        <span>
-                            an application that can fulfill your daily browsing needs.
-                        </span>
-                    </p>
-                    <div class="sponsors__info">
-                        <h2 class="sponsors__info-title">
-                            Findtrend make +1000 Startup grow
-                        </h2>
-                        <div class="sponsors__info-cards">
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/microsoft logo.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/allianz.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/upwork.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/volvo.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/microsoft logo.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/heinken.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/upwork.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/volvo.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/microsoft logo.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/allianz.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/algolia.svg" alt="microsoft logo">
-                            </div>
-                            <div class="sponsors__info-card">
-                                <img src="./assets/images/heinken.svg" alt="microsoft logo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container">
+          <div class="features__wrapper">
+            <h2 class="features__title">Open new tabs is sh*t</h2>
+            <div class="features__card">
+              <div class="features__main-card">
+                <img src="./assets/icons/mobile-logo.svg" alt="twitter logo" />
+                <span>Findtrend - Elon Musk</span>
+                <img src="./assets/icons/card-crossbar.svg" alt="crossbar" />
+              </div>
             </div>
-        </section>
+            <div class="features__info">
+              <p>
+                A solution for your browser tabs and don’t make <br />
+                your device get slower over time. Get ease and <br />
+                faster to discover a trend with just one tab.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sponsors">
+        <div class="container">
+          <div class="sponsors__wrapper">
+            <p class="sponsors__intro">
+              Findtrend helps you to increase your productivity and reduce your
+              computer's memory load,
+              <span>
+                an application that can fulfill your daily browsing needs.
+              </span>
+            </p>
+            <div class="sponsors__info">
+              <h2 class="sponsors__info-title">
+                Findtrend make +1000 Startup grow
+              </h2>
+              <div class="sponsors__info-cards">
+                <div class="sponsors__info-card">
+                  <img
+                    src="./assets/images/microsoft logo.svg"
+                    alt="microsoft logo"
+                  />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/allianz.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/upwork.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/volvo.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img
+                    src="./assets/images/microsoft logo.svg"
+                    alt="microsoft logo"
+                  />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/heinken.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/upwork.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/volvo.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img
+                    src="./assets/images/microsoft logo.svg"
+                    alt="microsoft logo"
+                  />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/allianz.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/algolia.svg" alt="microsoft logo" />
+                </div>
+                <div class="sponsors__info-card">
+                  <img src="./assets/images/heinken.svg" alt="microsoft logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="./js/index.js"></script>
