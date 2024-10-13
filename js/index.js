@@ -19,3 +19,7 @@ closeBtn.addEventListener("click", () => {
   navModal.classList.remove("nav__modal--active")
   overlay.classList.remove("nav__overlay--active")
 });
+
+
+
+
