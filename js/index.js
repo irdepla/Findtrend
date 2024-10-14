@@ -23,3 +23,49 @@ closeBtn.addEventListener("click", () => {
 
 
 
+
+
+// Example 5
+
+
+// function createCounter() {
+//   let count = 0;  // Initial value
+
+//   return {
+//       increment: function() {
+//           count++;  // Increment the count
+//           return count;  // Return the updated count
+//       },
+//       decrement: function() {
+//           count--;  // Decrement the count
+//           return count;  // Return the updated count
+//       }
+//   };
+// }
+
+// function createCounter() {
+//   let count = 0;  
+
+//   return {
+//       increment: function() {
+//           count++;  
+//           return count;  
+//       },
+//       decrement: function() {
+//           count--;  
+//           return count; 
+//       }
+//   };
+// }
+
+
+
+
+
+
+// const counter = createCounter();
+
+// console.log(counter.increment()); 
+// console.log(counter.increment()); 
+// console.log(counter.decrement()); 
+// console.log(counter.decrement()); 
